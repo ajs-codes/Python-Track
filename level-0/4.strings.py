@@ -12,8 +12,12 @@ my age is 20
 i am a passionate boy who 
 loves and learn to coding.
 '''
+# string operators
+
 print(str1+str2+str3)
 print(str4)
+
+print(str1 * 5)
 
 # accessing chars in a string
 index = "python"
