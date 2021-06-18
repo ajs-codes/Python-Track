@@ -19,7 +19,7 @@ for i in a:
 
 for i in a:
     pass
-while True:
+while i == 0:
     pass
 def func():
     pass
