@@ -13,6 +13,17 @@ for i in a:
     if i == ' ':
         continue
     print(i, end='')
+# pass statement
+# this should be declared when a statement is empty
+# for example
 
+for i in a:
+    pass
+while True:
+    pass
+def func():
+    pass
+class Table:
+    pass
 
 
