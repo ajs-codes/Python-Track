@@ -18,7 +18,8 @@ def greet_times(a,b):
         greet_times(a,b - 1)
 
 msg = input("enter the msg to be repeated: ")
-count = int(input('how many times to be repeated: '))
+count = int(input('no of times:'))
+
 greet_times(msg,count)
 
 
