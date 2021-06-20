@@ -1,3 +1,4 @@
+from functools import reduce
 # simply lambas are short-cut or one-liner functions
 # declaration
 func1 = lambda: print('hello world')
@@ -27,5 +28,4 @@ print(list(powers))
 evens = filter(lambda a: (a%2 == 0),list1)
 print(list(evens))
 # reduce
-# to perform
 print()
