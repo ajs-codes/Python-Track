@@ -28,4 +28,5 @@ print(list(powers))
 evens = filter(lambda a: (a%2 == 0),list1)
 print(list(evens))
 # reduce
-print()
+sums = reduce(lambda x,y: x+y,list1)
+print(sums)
