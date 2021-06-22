@@ -12,8 +12,8 @@ print(boolean)
 # simple exercise
 
 patient_name = input("enter your name : ")
-patient_age = input("enter your age :")
-is_new_patient = input("are you a new patient : (True or False) ")
+patient_age = int(input("enter your age :"))
+is_new_patient = bool(input("are you a new patient : (True or False) "))
 
 print("hey",patient_name)
 print("your age is",patient_age)
