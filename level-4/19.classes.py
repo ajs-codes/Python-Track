@@ -39,4 +39,5 @@ class Employee:
 
 
 emp1 = Employee("ajs", 20)
+print(emp1.__dict__)
 emp1.display()
